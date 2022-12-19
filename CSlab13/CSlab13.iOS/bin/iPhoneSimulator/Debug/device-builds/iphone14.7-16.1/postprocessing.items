@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="CSlab13.iOS.app/CSlab13.iOS">
+      <BCSymbolMapName>CSlab13.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>CSlab13.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone14.7-16.1/mtouch-symbols.list</SymbolFile>
+      <DSymName>CSlab13.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
