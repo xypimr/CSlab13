@@ -10,9 +10,9 @@
 /Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/CSlab13.dll
 /Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/CSlab13.pdb
-/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/AssemblyPage.xaml.g.cs
-/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/DetailPage.xaml.g.cs
-/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/PartPage.xaml.g.cs
-/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/ListAssembliesPage.xaml.g.cs
-/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/ListDetailsPage.xaml.g.cs
-/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/ListPartsPage.xaml.g.cs
+/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/PageAuditorium.xaml.g.cs
+/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/PageAuditoriumGroup.xaml.g.cs
+/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/PageBuilding.xaml.g.cs
+/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/PageListAuditoriumGroups.xaml.g.cs
+/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/PageListAuditoriums.xaml.g.cs
+/Users/oldmash/RiderProjects/labsC#/CSlab13/CSlab13/CSlab13/obj/Debug/netstandard2.0/PageListBuildings.xaml.g.cs

@@ -8,11 +8,11 @@ namespace CSlab13
 {
     public partial class App : Application
     {
-        public const string DBFILENAME = "lab13.db";
+        public const string Dbfilename = "CSlab13School.db";
         public App()
         {
             InitializeComponent();
-            string dbPath = DependencyService.Get<IPath>().GetDatabasePath(DBFILENAME);
+            string dbPath = DependencyService.Get<IPath>().GetDatabasePath(Dbfilename);
             MainPage = new NavigationPage(new MainPage());
             
         }

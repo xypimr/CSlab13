@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CSlab13.PageBuilding" Title="Информация о Корпусе">
+    <StackLayout Padding="15">
+        <Label Text="Название Корпуса/Отделения" />
+        <Entry Text="{Binding Name}" 
+               Placeholder="Введите название" 
+               PlaceholderColor="LightGray"/>
+        <Label Text="Какие аудитории есть в этом здании" />
+        <ListView x:Name="ListPartsInAssembly" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Edit"
+                                          CommandParameter="{Binding Detail.Name}"
+                                          Clicked="EditPart"/>
+                                <MenuItem Text="Delete"
+                                          CommandParameter="{Binding Detail.Name}"
+                                          Clicked="DeletePart"/>
+                            </ViewCell.ContextActions>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal" >
+                                    <StackLayout Orientation="Horizontal" 
+                                                 VerticalOptions="Center" 
+                                                 HorizontalOptions="StartAndExpand"
+                                                 Margin="20,0,20,0">
+                                        <Label Text="{Binding Path=Auditorium.Name}" 
+                                               FontSize="Medium" />
+                                        <Label Text="Количество:" 
+                                               FontSize="Medium"/>
+                                        <Label Text="{Binding Path=Quantity}" 
+                                               FontSize="Medium" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        <Frame BackgroundColor="#c7c5c5" 
+               Margin="10,5,0,10" 
+               Padding="10, 5, 10,5"
+               CornerRadius="10">
+            <Button Text="Добавить классы" Clicked="AddPart" TextColor="DimGray" FontSize="15"/>
+        </Frame>
+        
+        <StackLayout Orientation="Horizontal"
+                     Margin="0,0,0,10"
+                     HorizontalOptions="Center">
+            <Frame BackgroundColor="#c7c5c5" 
+                   Margin="0,10,0,0" 
+                   Padding="10, 5, 10,5"
+                   CornerRadius="10">
+                <Button Text="Сохранить" Clicked="SaveAssembly" TextColor="DimGray" FontSize="15"/>
+            </Frame>
+            <Frame BackgroundColor="#c7c5c5" 
+                   Margin="15,10,0,0" 
+                   Padding="10, 5, 10,5"
+                   CornerRadius="10">
+                <Button Text="Удалить" Clicked="DeleteAssembly" TextColor="DimGray" FontSize="15"/>
+            </Frame>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

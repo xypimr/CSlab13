@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CSlab13.PageAuditorium" Title="Информация о аудитории">
+    <StackLayout Padding="15">
+        <Label Text="Название аудитории" />
+        <Entry x:Name="EntryNameDetail"
+               x:FieldModifier="public"
+            Text="{Binding Name}" 
+            Placeholder="Введите название" 
+            PlaceholderColor="LightGray"/>
+        <Label Text="Количество посадочных мест" />
+        <Entry 
+            Text="{Binding NumberOfSeats}" 
+            Keyboard="Numeric" 
+            Placeholder="Введите количество" 
+            PlaceholderColor="LightGray"/>
+        <Label Text="Описание" />
+        <Entry 
+            Text="{Binding Description}" 
+            Keyboard="Numeric" 
+            Placeholder="Введите описание" 
+            PlaceholderColor="LightGray"/>
+        <StackLayout Orientation="Horizontal">
+            <Frame BackgroundColor="#c7c5c5" 
+                   Margin="0,10,0,0" 
+                   Padding="10, 5, 10,5"
+                   CornerRadius="10">
+                <Button Text="Сохранить" Clicked="SaveAuditorium" TextColor="DimGray" FontSize="15"/>
+            </Frame>
+            <Frame BackgroundColor="#c7c5c5" 
+                   Margin="15,10,0,0" 
+                   Padding="10, 5, 10,5"
+                   CornerRadius="10">
+                <Button Text="Удалить" Clicked="DeleteAuditorium" TextColor="DimGray" FontSize="15"/>
+            </Frame>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

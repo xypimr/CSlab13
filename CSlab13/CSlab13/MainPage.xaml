@@ -8,7 +8,7 @@
             UnselectedTabColor="DarkGray"
             Title="Производство">
     <TabbedPage.Children>
-        <local:ListAssembliesPage />
-        <local:ListDetailsPage/>
+        <local:PageListBuildings />
+        <local:PageListAuditoriums/>
     </TabbedPage.Children>
 </TabbedPage>
